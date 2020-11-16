@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: 'Josefin Sans', sans-serif;
+
+
+
+  .section-1 {
+    background-image: url("../img/bg-section-1.png");
+    height: 666px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    .section-1-title-text {
+      color: white;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 48px;
+      margin-top: 200px;
+      margin-bottom: 11px;
+    }
+
+    .section-1-small-text {
+      color: white;
+      text-align: center;
+      font-size: 22px;
+      letter-spacing: 4px;
+    }
+
+    .section-1-form {
+      text-align: center;
+      margin-left: 141px;
+
+      .input-form {
+        width: 614px;
+        height: 61px;
+        color: #999999;
+        font-size: 14px;
+        letter-spacing: 4px;
+        margin-top: 37px;
+        text-align: center;
+        padding-right: 130px;
+
+        &::placeholder {
+            color: #999999;
+          }
+      }
+
+      .search-btn {
+        text-decoration: none;
+        width: 151px;
+        height: 61px;
+        color: white;
+        background-color: #5474FD;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding: 21px 37px;
+        position: relative;
+        right: 144px;
+        top: -2px;
+        letter-spacing: 1px;
+      }
+
+      .logo-question {
+        width: 21px;
+        height: 21px;
+        position: relative;
+        right: 179px;
+        top: 4px;
+      }
+    }
+    .scroll-down {
+      width: 83px;
+      height: 36px;
+      margin-top: 105px;
+      margin-left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .section-2 {
+    background-image: url("../img/bg-section-2.png");
+    height: 81px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 33px;
+
+    .big-text {
+      width: 50%;
+      font-size: 24px;
+      padding-left: 38px;
+    }
+
+    .list {
+      width: 50%;
+      list-style: none;
+      font-size: 14px;
+      margin-right: 60px;
+
+      .list-item {
+        display: inline;
+        padding: 0 19px;
+      }
+    }
+  }
+
+  .section-3 {
+    background-image: url("../img/bg-section-3.png");
+    height: 552px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+
+
+    .section-3-content {
+      margin-left: 250px;
+
+      .section-3-title{
+        color: white;
+        font-size: 36px;
+        margin-top: 102px;
+      }
+
+      .section-3-text {
+        margin-top: 31px;
+        margin-bottom: 21px;
+        color: #E8E8E8;
+        font-size: 14px;
+        width: 450px;
+        height: 140px;
+      }
+
+      .blue-btn {
+        margin-top: 31px;
+        text-decoration: none;
+        width: 226px;
+        height: 61px;
+        color: white;
+        background-color: #5474FD;
+        font-size: 16px;
+        text-transform: uppercase;
+        padding: 21px 37px;
+        position: relative;
+        letter-spacing: 1px;
+      }
+    }
+
+    .pictures {
+      width: 600px;
+
+      .picture-2 {
+        padding-left: 144px;
+      }
+    }
+  }
+
+  .section-4 {
+    background-image: url("../img/bg-section-4.png");
+    height: 338px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -2px;
+
+    .shape {
+      position: absolute;
+      left: 150px;
+      top: 40px;
+      width: 964px;
+    }
+
+    img {
+      margin-left: 75px;
+      margin-bottom: 16px;
+      position: absolute;
+      background-color: #333333;
+    }
+
+    .section-4-content {
+      margin-top: 60px;
+    }
+
+    .section-4-text {
+      color: white;
+      font-size: 36px;
+      margin-top: 88px;
+    }
+  }
+
+  .section-5 {
+    background-image: url("../img/bg-section-5.png");
+    height: 620px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 199px;
+    padding-left: 291px;
+
+    .section-5-content {
+      width: 509px;
+      height: 348px;
+      background-color: rgba(0, 0, 0, .7);
+      padding-top: 10px;
+
+      .section-5-text {
+        width: 478px;
+        height: 68px;
+        margin: 20px;
+        color: white;
+        line-height: 24px;
+
+        .spain1 {
+          text-transform: uppercase;
+          font-size: 18px;
+          margin-bottom: 22px;
+        }
+
+        .spain2 {
+          text-transform: uppercase;
+          font-size: 18px;
+          margin-bottom: 22px;
+        }
+
+        .spain3 {
+          font-size: 13px;
+        }
+      }
+
+      .blue-btn {
+        top: 160px;
+        margin-left: 20px;
+        text-decoration: none;
+        width: 226px;
+        height: 61px;
+        color: white;
+        background-color: #5474FD;
+        font-size: 16px;
+        text-transform: uppercase;
+        padding: 21px 37px;
+        position: relative;
+        letter-spacing: 1px;
+      }
+    }
+  }
+
+  .section-6 {
+    background-image: url(../img/bg-section-6.png);
+    height: 559px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 181px;
+    padding-left: 722px;
+
+    .section-6-content {
+      width: 509px;
+      height: 348px;
+      background-color: rgba(0, 0, 0, .7);
+      padding-top: 10px;
+      margin: auto;
+
+      .section-6-text {
+        width: 478px;
+        height: 68px;
+        margin: 20px;
+        color: white;
+        line-height: 24px;
+
+        .spain1 {
+          text-transform: uppercase;
+          font-size: 18px;
+          margin-bottom: 22px;
+        }
+
+        .spain2 {
+          text-transform: uppercase;
+          font-size: 18px;
+          margin-bottom: 22px;
+        }
+
+        .spain3 {
+          font-size: 13px;
+        }
+      }
+
+      .blue-btn {
+        top: 160px;
+        margin-left: 20px;
+        text-decoration: none;
+        width: 226px;
+        height: 61px;
+        color: white;
+        background-color: #5474FD;
+        font-size: 16px;
+        text-transform: uppercase;
+        padding: 21px 37px;
+        position: relative;
+        letter-spacing: 1px;
+      }
+    }
+  }
+
+  .section-7 {
+    background-image: url(../img/bg-section-7.png);
+    height: 580px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    .section-7-title {
+      color: white;
+      font-size: 36px;
+      text-align: center;
+      margin-top: 90px;
+    }
+
+    .section-7-content {
+      width: 1111px;
+      display: flex;
+      background-color: #333333;
+      padding: 0;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px;
+
+      .section-7-photo {
+        padding: 0;
+      }
+
+      .section-7-text {
+        color: #FEFEFE;
+        background-color: #333333;
+        width: 651px;
+        margin: 40px 28px;
+
+        .text1 {
+          text-transform: uppercase;
+          font-size: 19px;
+          margin-bottom: 20px;
+        }
+
+        .text2 {
+          font-size: 15px;
+          line-height: 1.6;
+          display: inline;
+
+          // .quote-text {
+          //   i {
+          //     font-size:40px;
+          //     color: red;
+          //   }
+          // }
+        }
+      }
+    }
+  }
+
+  .section-8 {
+    background-image: url(../img/bg-section-8.png);
+    height: 269px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 90px;
+
+    .section-8-content {
+      text-align: center;
+
+
+      .big-text {
+        color: white;
+        font-size: 24px;
+        margin-bottom: 9px;
+        text-transform: uppercase;
+      }
+
+      .small-text {
+        color: #F0F0F0;
+        font-size: 16px;
+        margin-bottom: 17px;
+
+      }
+
+    }
+
+  }
+
+}

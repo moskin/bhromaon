@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 4px;
+  box-sizing: border-box; }
+
+.container {
+  font-family: 'Josefin Sans', sans-serif; }
+  .container .section-1 {
+    background-image: url("../img/bg-section-1.png");
+    height: 666px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative; }
+    .container .section-1 .section-1-title-text {
+      color: white;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 48px;
+      margin-top: 200px;
+      margin-bottom: 11px; }
+    .container .section-1 .section-1-small-text {
+      color: white;
+      text-align: center;
+      font-size: 22px;
+      letter-spacing: 4px; }
+    .container .section-1 .section-1-form {
+      text-align: center;
+      margin-left: 141px; }
+      .container .section-1 .section-1-form .input-form {
+        width: 614px;
+        height: 61px;
+        color: #999999;
+        font-size: 14px;
+        letter-spacing: 4px;
+        margin-top: 37px;
+        text-align: center;
+        padding-right: 130px; }
+        .container .section-1 .section-1-form .input-form::placeholder {
+          color: #999999; }
+      .container .section-1 .section-1-form .search-btn {
+        text-decoration: none;
+        width: 151px;
+        height: 61px;
+        color: white;
+        background-color: #5474FD;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding: 21px 37px;
+        position: relative;
+        right: 144px;
+        top: -2px;
+        letter-spacing: 1px; }
+      .container .section-1 .section-1-form .logo-question {
+        width: 21px;
+        height: 21px;
+        position: relative;
+        right: 179px;
+        top: 4px; }
+    .container .section-1 .scroll-down {
+      width: 83px;
+      height: 36px;
+      margin-top: 105px;
+      margin-left: 50%;
+      transform: translate(-50%, -50%); }
+  .container .section-2 {
+    background-image: url("../img/bg-section-2.png");
+    height: 81px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 33px; }
+    .container .section-2 .big-text {
+      width: 50%;
+      font-size: 24px;
+      padding-left: 38px; }
+    .container .section-2 .list {
+      width: 50%;
+      list-style: none;
+      font-size: 14px;
+      margin-right: 60px; }
+      .container .section-2 .list .list-item {
+        display: inline;
+        padding: 0 19px; }
+  .container .section-3 {
+    background-image: url("../img/bg-section-3.png");
+    height: 552px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px; }
+    .container .section-3 .section-3-content {
+      margin-left: 250px; }
+      .container .section-3 .section-3-content .section-3-title {
+        color: white;
+        font-size: 36px;
+        margin-top: 102px; }
+      .container .section-3 .section-3-content .section-3-text {
+        margin-top: 31px;
+        margin-bottom: 21px;
+        color: #E8E8E8;
+        font-size: 14px;
+        width: 450px;
+        height: 140px; }
+      .container .section-3 .section-3-content .blue-btn {
+        margin-top: 31px;
+        text-decoration: none;
+        width: 226px;
+        height: 61px;
+        color: white;
+        background-color: #5474FD;
+        font-size: 16px;
+        text-transform: uppercase;
+        padding: 21px 37px;
+        position: relative;
+        letter-spacing: 1px; }
+    .container .section-3 .pictures {
+      width: 600px; }
+      .container .section-3 .pictures .picture-2 {
+        padding-left: 144px; }
+  .container .section-4 {
+    background-image: url("../img/bg-section-4.png");
+    height: 338px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -2px; }
+    .container .section-4 .shape {
+      position: absolute;
+      left: 150px;
+      top: 40px;
+      width: 964px; }
+    .container .section-4 img {
+      margin-left: 75px;
+      margin-bottom: 16px;
+      position: absolute;
+      background-color: #333333; }
+    .container .section-4 .section-4-content {
+      margin-top: 60px; }
+    .container .section-4 .section-4-text {
+      color: white;
+      font-size: 36px;
+      margin-top: 88px; }
+  .container .section-5 {
+    background-image: url("../img/bg-section-5.png");
+    height: 620px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 199px;
+    padding-left: 291px; }
+    .container .section-5 .section-5-content {
+      width: 509px;
+      height: 348px;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding-top: 10px; }
+      .container .section-5 .section-5-content .section-5-text {
+        width: 478px;
+        height: 68px;
+        margin: 20px;
+        color: white;
+        line-height: 24px; }
+        .container .section-5 .section-5-content .section-5-text .spain1 {
+          text-transform: uppercase;
+          font-size: 18px;
+          margin-bottom: 22px; }
+        .container .section-5 .section-5-content .section-5-text .spain2 {
+          text-transform: uppercase;
+          font-size: 18px;
+          margin-bottom: 22px; }
+        .container .section-5 .section-5-content .section-5-text .spain3 {
+          font-size: 13px; }
+      .container .section-5 .section-5-content .blue-btn {
+        top: 160px;
+        margin-left: 20px;
+        text-decoration: none;
+        width: 226px;
+        height: 61px;
+        color: white;
+        background-color: #5474FD;
+        font-size: 16px;
+        text-transform: uppercase;
+        padding: 21px 37px;
+        position: relative;
+        letter-spacing: 1px; }
+  .container .section-6 {
+    background-image: url(../img/bg-section-6.png);
+    height: 559px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 181px;
+    padding-left: 722px; }
+    .container .section-6 .section-6-content {
+      width: 509px;
+      height: 348px;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding-top: 10px;
+      margin: auto; }
+      .container .section-6 .section-6-content .section-6-text {
+        width: 478px;
+        height: 68px;
+        margin: 20px;
+        color: white;
+        line-height: 24px; }
+        .container .section-6 .section-6-content .section-6-text .spain1 {
+          text-transform: uppercase;
+          font-size: 18px;
+          margin-bottom: 22px; }
+        .container .section-6 .section-6-content .section-6-text .spain2 {
+          text-transform: uppercase;
+          font-size: 18px;
+          margin-bottom: 22px; }
+        .container .section-6 .section-6-content .section-6-text .spain3 {
+          font-size: 13px; }
+      .container .section-6 .section-6-content .blue-btn {
+        top: 160px;
+        margin-left: 20px;
+        text-decoration: none;
+        width: 226px;
+        height: 61px;
+        color: white;
+        background-color: #5474FD;
+        font-size: 16px;
+        text-transform: uppercase;
+        padding: 21px 37px;
+        position: relative;
+        letter-spacing: 1px; }
+  .container .section-7 {
+    background-image: url(../img/bg-section-7.png);
+    height: 580px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative; }
+    .container .section-7 .section-7-title {
+      color: white;
+      font-size: 36px;
+      text-align: center;
+      margin-top: 90px; }
+    .container .section-7 .section-7-content {
+      width: 1111px;
+      display: flex;
+      background-color: #333333;
+      padding: 0;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px; }
+      .container .section-7 .section-7-content .section-7-photo {
+        padding: 0; }
+      .container .section-7 .section-7-content .section-7-text {
+        color: #FEFEFE;
+        background-color: #333333;
+        width: 651px;
+        margin: 40px 28px; }
+        .container .section-7 .section-7-content .section-7-text .text1 {
+          text-transform: uppercase;
+          font-size: 19px;
+          margin-bottom: 20px; }
+        .container .section-7 .section-7-content .section-7-text .text2 {
+          font-size: 15px;
+          line-height: 1.6;
+          display: inline; }
+  .container .section-8 {
+    background-image: url(../img/bg-section-8.png);
+    height: 269px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 90px; }
+    .container .section-8 .section-8-content {
+      text-align: center; }
+      .container .section-8 .section-8-content .big-text {
+        color: white;
+        font-size: 24px;
+        margin-bottom: 9px;
+        text-transform: uppercase; }
+      .container .section-8 .section-8-content .small-text {
+        color: #F0F0F0;
+        font-size: 16px;
+        margin-bottom: 17px; }
